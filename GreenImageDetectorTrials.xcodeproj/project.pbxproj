@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54C52F71ACCA7E600E78173 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C52F61ACCA7E600E78173 /* Helper.swift */; };
+		A5D197DA1AC8BFE600F51551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D197D91AC8BFE600F51551 /* AppDelegate.swift */; };
+		A5D197DC1AC8BFE600F51551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D197DB1AC8BFE600F51551 /* ViewController.swift */; };
+		A5D197DF1AC8BFE600F51551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D197DD1AC8BFE600F51551 /* Main.storyboard */; };
+		A5D197E11AC8BFE600F51551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D197E01AC8BFE600F51551 /* Images.xcassets */; };
+		A5D197E41AC8BFE600F51551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D197E21AC8BFE600F51551 /* LaunchScreen.xib */; };
+		A5D197F01AC8BFE600F51551 /* GreenImageDetectorTrialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D197EF1AC8BFE600F51551 /* GreenImageDetectorTrialsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D197EA1AC8BFE600F51551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D197CC1AC8BFE600F51551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D197D31AC8BFE600F51551;
+			remoteInfo = GreenImageDetectorTrials;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A54C52F61ACCA7E600E78173 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A5D197D41AC8BFE600F51551 /* GreenImageDetectorTrials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenImageDetectorTrials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D197D81AC8BFE600F51551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D197D91AC8BFE600F51551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D197DB1AC8BFE600F51551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5D197DE1AC8BFE600F51551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D197E01AC8BFE600F51551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5D197E31AC8BFE600F51551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5D197E91AC8BFE600F51551 /* GreenImageDetectorTrialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenImageDetectorTrialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D197EE1AC8BFE600F51551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D197EF1AC8BFE600F51551 /* GreenImageDetectorTrialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenImageDetectorTrialsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D197D11AC8BFE600F51551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D197E61AC8BFE600F51551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D197CB1AC8BFE600F51551 = {
+			isa = PBXGroup;
+			children = (
+				A5D197D61AC8BFE600F51551 /* GreenImageDetectorTrials */,
+				A5D197EC1AC8BFE600F51551 /* GreenImageDetectorTrialsTests */,
+				A5D197D51AC8BFE600F51551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D197D51AC8BFE600F51551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D197D41AC8BFE600F51551 /* GreenImageDetectorTrials.app */,
+				A5D197E91AC8BFE600F51551 /* GreenImageDetectorTrialsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D197D61AC8BFE600F51551 /* GreenImageDetectorTrials */ = {
+			isa = PBXGroup;
+			children = (
+				A5D197DB1AC8BFE600F51551 /* ViewController.swift */,
+				A54C52F61ACCA7E600E78173 /* Helper.swift */,
+				A5D197DD1AC8BFE600F51551 /* Main.storyboard */,
+				A5D197D71AC8BFE600F51551 /* Supporting Files */,
+			);
+			path = GreenImageDetectorTrials;
+			sourceTree = "<group>";
+		};
+		A5D197D71AC8BFE600F51551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D197D91AC8BFE600F51551 /* AppDelegate.swift */,
+				A5D197E21AC8BFE600F51551 /* LaunchScreen.xib */,
+				A5D197E01AC8BFE600F51551 /* Images.xcassets */,
+				A5D197D81AC8BFE600F51551 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D197EC1AC8BFE600F51551 /* GreenImageDetectorTrialsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D197EF1AC8BFE600F51551 /* GreenImageDetectorTrialsTests.swift */,
+				A5D197ED1AC8BFE600F51551 /* Supporting Files */,
+			);
+			path = GreenImageDetectorTrialsTests;
+			sourceTree = "<group>";
+		};
+		A5D197ED1AC8BFE600F51551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D197EE1AC8BFE600F51551 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D197D31AC8BFE600F51551 /* GreenImageDetectorTrials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D197F31AC8BFE600F51551 /* Build configuration list for PBXNativeTarget "GreenImageDetectorTrials" */;
+			buildPhases = (
+				A5D197D01AC8BFE600F51551 /* Sources */,
+				A5D197D11AC8BFE600F51551 /* Frameworks */,
+				A5D197D21AC8BFE600F51551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenImageDetectorTrials;
+			productName = GreenImageDetectorTrials;
+			productReference = A5D197D41AC8BFE600F51551 /* GreenImageDetectorTrials.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D197E81AC8BFE600F51551 /* GreenImageDetectorTrialsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D197F61AC8BFE600F51551 /* Build configuration list for PBXNativeTarget "GreenImageDetectorTrialsTests" */;
+			buildPhases = (
+				A5D197E51AC8BFE600F51551 /* Sources */,
+				A5D197E61AC8BFE600F51551 /* Frameworks */,
+				A5D197E71AC8BFE600F51551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D197EB1AC8BFE600F51551 /* PBXTargetDependency */,
+			);
+			name = GreenImageDetectorTrialsTests;
+			productName = GreenImageDetectorTrialsTests;
+			productReference = A5D197E91AC8BFE600F51551 /* GreenImageDetectorTrialsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D197CC1AC8BFE600F51551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Bliss Chapman";
+				TargetAttributes = {
+					A5D197D31AC8BFE600F51551 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A5D197E81AC8BFE600F51551 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A5D197D31AC8BFE600F51551;
+					};
+				};
+			};
+			buildConfigurationList = A5D197CF1AC8BFE600F51551 /* Build configuration list for PBXProject "GreenImageDetectorTrials" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D197CB1AC8BFE600F51551;
+			productRefGroup = A5D197D51AC8BFE600F51551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D197D31AC8BFE600F51551 /* GreenImageDetectorTrials */,
+				A5D197E81AC8BFE600F51551 /* GreenImageDetectorTrialsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D197D21AC8BFE600F51551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D197DF1AC8BFE600F51551 /* Main.storyboard in Resources */,
+				A5D197E41AC8BFE600F51551 /* LaunchScreen.xib in Resources */,
+				A5D197E11AC8BFE600F51551 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D197E71AC8BFE600F51551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D197D01AC8BFE600F51551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D197DC1AC8BFE600F51551 /* ViewController.swift in Sources */,
+				A5D197DA1AC8BFE600F51551 /* AppDelegate.swift in Sources */,
+				A54C52F71ACCA7E600E78173 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D197E51AC8BFE600F51551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D197F01AC8BFE600F51551 /* GreenImageDetectorTrialsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D197EB1AC8BFE600F51551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D197D31AC8BFE600F51551 /* GreenImageDetectorTrials */;
+			targetProxy = A5D197EA1AC8BFE600F51551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5D197DD1AC8BFE600F51551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D197DE1AC8BFE600F51551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D197E21AC8BFE600F51551 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D197E31AC8BFE600F51551 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D197F11AC8BFE600F51551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D197F21AC8BFE600F51551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D197F41AC8BFE600F51551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreenImageDetectorTrials/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5D197F51AC8BFE600F51551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreenImageDetectorTrials/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5D197F71AC8BFE600F51551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreenImageDetectorTrialsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenImageDetectorTrials.app/GreenImageDetectorTrials";
+			};
+			name = Debug;
+		};
+		A5D197F81AC8BFE600F51551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreenImageDetectorTrialsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenImageDetectorTrials.app/GreenImageDetectorTrials";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D197CF1AC8BFE600F51551 /* Build configuration list for PBXProject "GreenImageDetectorTrials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D197F11AC8BFE600F51551 /* Debug */,
+				A5D197F21AC8BFE600F51551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D197F31AC8BFE600F51551 /* Build configuration list for PBXNativeTarget "GreenImageDetectorTrials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D197F41AC8BFE600F51551 /* Debug */,
+				A5D197F51AC8BFE600F51551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D197F61AC8BFE600F51551 /* Build configuration list for PBXNativeTarget "GreenImageDetectorTrialsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D197F71AC8BFE600F51551 /* Debug */,
+				A5D197F81AC8BFE600F51551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D197CC1AC8BFE600F51551 /* Project object */;
+}
